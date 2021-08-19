@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+background-color:floralwhite;
+
+}
+.containerHeader{
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+
+}
+.containerHeader form{
+align-self: center;
+margin-top: 1rem;
+
+}
+input{
+  padding-left: 10px;
+  width: 50vw;
+  height: 6vw;
+  margin-bottom: 50px;
+ 
+}
+.submit{
+  width: 20vw;
+  height: 6vw;
+  margin-left: 0.5rem;
+  border-radius: 0.1rem;
+
+}
+
+
+.containerHeader h1{
+  align-self: center;
+  color:crimson;
+  font-size: 7vw;
+}
+.containerFood{
+
+  background-color: #d0d3d4 ;
+  width: 80%;
+  height: 40%;
+  margin-left: 7vw;
+  display: flex;
+ flex-direction: column;
+ padding-top: 20px;
+ margin-bottom: 30px;
+ padding-bottom: 20px;
+ border-radius: 10px;
+ border-top-width: 10px;
+ border-top-style: solid;
+ border-bottom-width: 10px;
+ border-bottom-style: solid;
+ border-right-width: 10px;
+ border-right-style: solid;
+ border-left-width: 10px;
+ border-left-style: solid;
+border-color: black;
+
+
+}
+.containerFood img{
+ width: 50%;
+ align-self: center;
+
+}
+.containerFood p{
+  text-align: center;
+ 
+}
+.containerFood h3{
+text-align: center;
+font-size: 5vw;
+}
+.btnMore{
+height: 2.3rem;
+width: 25%;
+align-self: center;
+border-radius: 0.5rem;
+border-color:grey;
+border-width: 3px;
+
+}
+.btnMore a{
+  text-decoration: none;
+  color:black;
+}
+
+.mealType{
+  color: crimson;
+  font-size: 6vw;
+}
+.aroundText{
+  font-size: 6vw;
+}
